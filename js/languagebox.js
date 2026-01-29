@@ -63,7 +63,7 @@ class LanguageBox {
         this.hide();
     }
 
-    /**
+     /**
      * @public
      * @returns {void}
      */

@@ -152,7 +152,7 @@ class PasteBox {
             callback(this, name, bitmap, extras);
         };
 
-        img.src = "data:image/svg+xml;base64," + window.btoa(base64Encode(data));
+        img.src = "data:image/svg+xml;base64," + window.btoa(data);
     }
 }
 if (typeof module !== "undefined" && module.exports) {
